@@ -14,4 +14,11 @@ public class TestCesar {
         assertEquals("B",result,"Should return B as string");
     }
 
+    @Test
+    public void testDecryptaCesar() {
+        String text = "A";
+        String result = Cesar.DecryptaCesar(text, 3);
+
+        assertEquals("X",result,"Should return Z as string");
+    }
 }
